@@ -1,0 +1,3 @@
+[submodule "themes/hugo-xmin-fork"]
+	path = themes/hugo-xmin-fork
+	url = https://github.com/cicovic-andrija/hugo-xmin-fork.git

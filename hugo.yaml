@@ -1,0 +1,19 @@
+baseURL: "/"
+languageCode: "en-us"
+title: "cobalt"
+theme: "hugo-xmin-fork"
+
+menu:
+  main:
+    - name: "Home"
+      url: ""
+      weight: 1
+    - name: "Categories"
+      url: "categories/"
+      weight: 2
+    - name: "Tags"
+      url: "tags/"
+      weight: 3
+    - name: "Subscribe"
+      url: "index.xml"
+      weight: 4
