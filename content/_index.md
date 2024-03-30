@@ -6,7 +6,7 @@ title: "Home"
 
 # cobalt
 
-### _inspired by the deep, endless freedom of the sea_
+### _the deep sea colour of infinite freedom_
 
 ...is my minimal+personal website, powered by [Hugo](https://gohugo.io/) and based on my
 [fork](https://github.com/cicovic-andrija/hugo-xmin-fork) of [XMin](https://github.com/yihui/hugo-xmin).
