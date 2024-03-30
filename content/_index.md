@@ -2,19 +2,23 @@
 title: "Home"
 ---
 
+<img src="/images/cobalt-manta.png" style="max-width:15%;min-width:40px;float:right;" alt="Manta ray" />
+
 # cobalt
 
-### _inspired by the deep, endless expanse of the sea_
+### _inspired by the deep, endless freedom of the sea_
 
-...is my minimal+personal website, powered by [Hugo](https://gohugo.io/) and based on my fork of
-[XMin](https://github.com/yihui/hugo-xmin). It contains an exploration journal about software systems, SCUBA diving and
-literature. There are also cooking recipes sprinkled around... and other arbitrary notes.
+...is my minimal+personal website, powered by [Hugo](https://gohugo.io/) and based on my
+[fork](https://github.com/cicovic-andrija/hugo-xmin-fork) of [XMin](https://github.com/yihui/hugo-xmin).
+It's a learning journal about programming & software systems, SCUBA diving, literature, etc., and a collection of other
+arbitrary notes. If you happen to not be me and reading this, suggestions and bug reports are welcome
+[@my-e-mail-address](mailto:cicovic.andrija@gmail.com).
 
-Let's dive in [:)]
+Let's dive in. ⚓
 
-### First, a quine:
+### First, a quine
 
-A _quine_ is a computer program that takes no input and produces a copy of its own source code as its only output:
+A _quine_ is a computer program that produces a copy of its own source code as its output:
 
 ```
 /* assumed ASCII code table */
@@ -27,4 +31,4 @@ return 0;
 }
 ```
 
-### Then, everything else:
+### Then, everything else

@@ -2,6 +2,7 @@ baseURL: "/"
 languageCode: "en-us"
 title: "cobalt"
 theme: "hugo-xmin-fork"
+footnotereturnlinkcontents: "↩"
 
 menu:
   main:
@@ -14,6 +15,16 @@ menu:
     - name: "Tags"
       url: "tags/"
       weight: 3
-    - name: "Subscribe"
+    - name: "RSS Feed"
       url: "index.xml"
       weight: 4
+
+params:
+  footer: "[top](#) | [posts](/posts/) | [notes](/notes/) | Andrija Cicović | 2023 | [E-mail](mailto:cicovic.andrija@gmail.com) | [Github](https://github.com/cicovic-andrija)"
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true

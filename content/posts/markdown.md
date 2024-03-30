@@ -1,7 +1,6 @@
 ---
 title: "Markdown Examples Page"
-date: "2024-03-28T22:41:54+01:00"
-author: "Andrija Cicović"
+date: "2023-01-01T00:00:00Z"
 draft: true
 ---
 
