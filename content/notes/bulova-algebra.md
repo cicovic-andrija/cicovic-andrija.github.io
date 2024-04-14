@@ -1,6 +1,6 @@
 ---
 title: "Bulova algebra"
-date: "2023-10-07T19:48:14.997Z"
+date: "2023-10-07T19:48:14Z"
 categories: ["references"]
 tags: ["math", "sr"]
 draft: false
