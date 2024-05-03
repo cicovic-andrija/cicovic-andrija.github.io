@@ -6,8 +6,6 @@ tags: ["taxes", "sr"]
 draft: false
 ---
 
-# Poreski priručnik
-
 _Ovo nije zvaničan dokument Poreske Uprave Republike Srbije._
 
 ## Poreski obrasci
