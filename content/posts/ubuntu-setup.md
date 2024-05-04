@@ -27,6 +27,14 @@ mkdir -p $HOME/work
 git clone git@github.com:cicovic-andrija/dotfiles.git $HOME/work/dotfiles
 ```
 
+## Git
+
+Configure git:
+
+```bash
+cp $HOME/work/dotfiles/linux/.gitconfig $HOME/.gitconfig
+```
+
 ## Tilix
 
 Install the Tilix terminal emulator:
@@ -101,7 +109,7 @@ fc-cache -f -v
 
 ## Other minor tweaks
 
-### Minimize windows on dock icon click
+Minimize windows on dock icon click:
 
 ```bash
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
