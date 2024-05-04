@@ -2,7 +2,7 @@
 title: "Rust Introduction"
 date: "2023-02-05T11:39:40Z"
 categories: ["references", "software"]
-tags: ["rust", "programming"]
+tags: ["rust", "programming", "books"]
 draft: false
 ---
 
