@@ -8,9 +8,9 @@ title: "Home"
 
 ### _the sea blue of infinite freedom_
 
-...is my minimal+personal website, powered by [Hugo](https://gohugo.io/) and based on my
+...is my personal/minimal website, powered by [Hugo](https://gohugo.io/) and based on my
 [fork](https://github.com/cicovic-andrija/hugo-xmin-fork) of [XMin](https://github.com/yihui/hugo-xmin).
-It's a dev/learning journal about programming & software systems, SCUBA diving, literature, etc., and a collection of
+It's a learning journal about programming & software systems, SCUBA diving, literature, etc., and a collection of
 other arbitrary notes. If you happen to not be me and reading this, suggestions and bug reports are welcome
 [@my-e-mail-address](mailto:cicovic.andrija@gmail.com).
 
