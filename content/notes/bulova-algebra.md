@@ -1,7 +1,7 @@
 ---
 title: "Bulova algebra"
 date: "2023-10-07T19:48:14Z"
-categories: ["references"]
+categories: ["software"]
 tags: ["math", "sr"]
 draft: false
 ---

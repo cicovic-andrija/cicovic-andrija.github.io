@@ -1,7 +1,7 @@
 ---
 title: "Windows Internals: Basic Concepts"
 date: "2023-02-23T08:58:07Z"
-categories: ["references", "software"]
+categories: ["software"]
 tags: ["operating-systems", "windows", "books"]
 draft: false
 ---

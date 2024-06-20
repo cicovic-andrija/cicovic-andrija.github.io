@@ -1,7 +1,7 @@
 ---
 title: "Physics in SCUBA Diving"
 date: "2023-03-03T16:18:40Z"
-categories: ["references", "scuba-diving"]
+categories: ["scuba-diving"]
 tags: ["physics"]
 draft: false
 ---

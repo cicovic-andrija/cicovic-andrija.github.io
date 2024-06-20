@@ -1,7 +1,7 @@
 ---
 title: "Setup of an Ubuntu System"
 date: "2024-05-03T17:10:16Z"
-categories: ["references", "software"]
+categories: ["software"]
 tags: ["operating-systems", "linux"]
 draft: false
 ---
