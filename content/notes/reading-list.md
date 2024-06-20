@@ -8,6 +8,7 @@ draft: false
 
 ## 2024
 
+- _Dance Dance Dance_ by Haruki Murakami (20.06.2024.)
 - _Honey Pie_ by Haruki Murakami (_After the Quake_ collection, 05.05.2024.)
 - _Super-Frog Saves Tokyo_ by Haruki Murakami (_After the Quake_ collection, 02.05.2024.)
 - _Thailand_ by Haruki Murakami (_After the Quake_ collection, 13.04.2024.)
