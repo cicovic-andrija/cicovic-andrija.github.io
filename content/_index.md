@@ -6,8 +6,6 @@ title: "Home"
 
 # cobalt
 
-### _the sea blue of infinite freedom_
-
 ...is my personal, minimal website powered by [Hugo](https://gohugo.io/) and based on my
 [fork](https://github.com/cicovic-andrija/hugo-xmin-fork) of [XMin](https://github.com/yihui/hugo-xmin).
 It's a learning journal about programming & software systems, SCUBA diving, literature ... and a collection of
