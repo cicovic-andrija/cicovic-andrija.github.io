@@ -6,7 +6,7 @@ tags: ["operating-systems", "linux"]
 draft: false
 ---
 
-> Formerly known as "Setup of an Ubuntu System".
+_Formerly known as "Setup of an Ubuntu System"._
 
 This is a reference for a skeleton configuration of my Pop!_OS system. Last time tried out on
 Pop!_OS 22.04 LTS.
