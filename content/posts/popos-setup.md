@@ -1,13 +1,15 @@
 ---
-title: "Setup of an Ubuntu System"
+title: "Setup of a Pop!_OS System"
 date: "2024-05-03T17:10:16Z"
 categories: ["software"]
 tags: ["operating-systems", "linux"]
 draft: false
 ---
 
-This is a reference for a skeleton configuration of my Ubuntu system. Last time tried out on
-Ubuntu 24.04 LTS.
+> Formerly known as "Setup of an Ubuntu System".
+
+This is a reference for a skeleton configuration of my Pop!_OS system. Last time tried out on
+Pop!_OS 22.04 LTS.
 
 ## Core Packages
 
@@ -20,11 +22,25 @@ sudo apt install build-essential git cmake tmux python3 libfuse2 jq mpv ffmpeg u
 
 Generate a new [SSH key for GitHub and add it to the `ssh-agent`](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
+Example:
+
+```bash
+ssh-keygen -t ed25519 -C "cicovic.andrija@gmail.com"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+```
+
+## Home Directory Cleanup
+
+```bash
+rmdir Music/ Pictures/ Public/ Templates/ Videos/
+```
+
 ## Configuration Files
 
 ```bash
-mkdir -p $HOME/work
-git clone git@github.com:cicovic-andrija/dotfiles.git $HOME/work/dotfiles
+mkdir -p $HOME/src
+git clone git@github.com:cicovic-andrija/dotfiles.git $HOME/src/dotfiles
 ```
 
 ## Git
@@ -32,19 +48,7 @@ git clone git@github.com:cicovic-andrija/dotfiles.git $HOME/work/dotfiles
 Configure git:
 
 ```bash
-cp $HOME/work/dotfiles/linux/.gitconfig $HOME/.gitconfig
-```
-
-## Tilix
-
-Install the Tilix terminal emulator:
-
-```bash
-sudo apt install tilix
-mkdir -p $HOME/.config/tilix/schemes && cd $HOME/.config/tilix/schemes
-
-# Theme.
-curl https://raw.githubusercontent.com/nordtheme/tilix/develop/src/json/nord.json > nord.json
+cp $HOME/src/dotfiles/linux/.gitconfig $HOME/.gitconfig
 ```
 
 ## Neovim
@@ -57,7 +61,7 @@ sudo apt install ninja-build gettext
 
 # Get the codebase, build and install Neovim for the current user.
 mkdir -p $HOME/neovim
-mkdir -p $HOME/src && cd $HOME/src
+cd $HOME/src
 git clone https://github.com/neovim/neovim
 cd neovim
 git checkout stable
@@ -65,9 +69,12 @@ make CMAKE_BUILD_TYPE=Release CMAKE_EXTRA_FLAGS="-DCMAKE_INSTALL_PREFIX=$HOME/ne
 make install
 
 # Install vim-plug by following official instructions: https://github.com/junegunn/vim-plug
+# e.g.
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
 # Configure Neovim.
 mkdir $HOME/.config/nvim
-cp $HOME/work/dotfiles/linux/init.vim $HOME/.config/nvim/init.vim
+cp $HOME/src/dotfiles/linux/init.vim $HOME/.config/nvim/init.vim
 
 # Update .bashrc (or alternative) with aliases.
 # alias vim="nvim"
@@ -76,9 +83,12 @@ cp $HOME/work/dotfiles/linux/init.vim $HOME/.config/nvim/init.vim
 
 # Update PATH (see below).
 
+# Install plugins.
+vim +PlugInstall +qall
+
 # How to uninstall:
-cd $HOME/src/neovim
-cmake --build build/ --target uninstall
+#cd $HOME/src/neovim
+#cmake --build build/ --target uninstall
 ```
 
 ## Go
@@ -92,7 +102,7 @@ sudo tar -C /usr/local -xzf $HOME/Downloads/go1.22.2.linux-amd64.tar.gz
 # Update PATH (see below).
 ```
 
-## Set the PATH environment variable
+## Set the PATH Environment Variable
 
 ```bash
 # Update .bashrc (or alternative).
@@ -105,12 +115,4 @@ export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin:$HOME/neovim/bin
 mkdir -p $HOME/.fonts
 unzip $HOME/Downloads/JetBrainsMono-2.304.zip "*.ttf" "*.otf" -d $HOME/.fonts
 fc-cache -f -v
-```
-
-## Other minor tweaks
-
-Minimize windows on dock icon click:
-
-```bash
-gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
 ```
