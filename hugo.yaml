@@ -15,7 +15,7 @@ menu:
     - name: "Tags"
       url: "tags/"
       weight: 3
-    - name: "RSS Feed"
+    - name: "RSS"
       url: "index.xml"
       weight: 4
 

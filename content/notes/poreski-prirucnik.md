@@ -1,7 +1,7 @@
 ---
 title: "Poreski priručnik"
 date: "2023-04-07T11:49:26Z"
-categories: []
+categories: ["other"]
 tags: ["taxes", "sr"]
 draft: false
 ---

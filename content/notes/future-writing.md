@@ -1,13 +1,14 @@
 ---
 title: "Future Writing"
 date: "2024-04-12T17:44:32Z"
-categories: ["brainstorming"]
+categories: ["other"]
 draft: true
 ---
 
 ## Diving
 
 - Nitrox Diving Course Notes (SSI)
+- Wreck Diving Course Notes (PADI)
 - Bühlmann Decompression Algorithm (and ZH-L 16 C)
 
 ## Programming
