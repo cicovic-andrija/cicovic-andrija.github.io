@@ -48,6 +48,8 @@ cat ~/.ssh/id_ed25519.pub
 
 ## Configuration Files
 
+Download configuration files from GitHub:
+
 ```bash
 mkdir -p $HOME/src
 git clone git@github.com:cicovic-andrija/dotfiles.git $HOME/src/dotfiles
@@ -83,7 +85,7 @@ make install
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 # Configure.
-mkdir $HOME/.config/nvim
+mkdir -p $HOME/.config/nvim
 cp $HOME/src/dotfiles/linux/init.vim $HOME/.config/nvim/init.vim
 
 # Update .bashrc (or alternative) with aliases.
@@ -107,9 +109,10 @@ vim +PlugInstall +qall
 Install the Go programming language toolchain:
 
 ```bash
-wget "https://go.dev/dl/$(curl 'https://go.dev/VERSION?m=text' | head -n 1).linux-amd64.tar.gz" -P $HOME/Downloads/
+GO_TAR_GZ_LATEST="$(curl 'https://go.dev/VERSION?m=text' | head -n1).linux-amd64.tar.gz"
+wget "https://go.dev/dl/$GO_TAR_GZ_LATEST" -P $HOME/Downloads/
 sudo rm -rf /usr/local/go
-sudo tar -C /usr/local -xzf $HOME/Downloads/go1.22.2.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf $HOME/Downloads/$GO_TAR_GZ_LATEST
 go version
 ```
 
