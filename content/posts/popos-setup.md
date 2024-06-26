@@ -15,7 +15,7 @@ Pop!_OS 22.04 LTS.
 
 ```bash
 sudo apt update
-sudo apt install build-essential git cmake tmux python3 libfuse2 jq mpv ffmpeg unzip curl tree
+sudo apt install build-essential git cmake tmux python3 libfuse2 jq mpv ffmpeg unzip curl tree gnome-tweaks
 ```
 
 ## GitHub
@@ -117,11 +117,34 @@ unzip $HOME/Downloads/JetBrainsMono-2.304.zip "*.ttf" "*.otf" -d $HOME/.fonts
 fc-cache -f -v
 ```
 
-## Hugo
+## GNOME Configuration
+
+```bash
+gsettings set org.gnome.desktop.interface text-scaling-factor 1.25
+gsettings set org.gnome.desktop.interface cursor-size 32
+gsettings set org.gnome.desktop.interface clock-format 24h
+gsettings set org.gnome.desktop.interface clock-show-date true
+gsettings set org.gnome.desktop.interface clock-show-weekday true
+gsettings set org.gnome.desktop.wm.preferences button-layout appmenu:minimize,maximize,close
+gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll true
+gsettings set org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true
+gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
+```
+
+## Other Software
+
+### Hugo
 
 ```bash
 CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
 
 # Test.
 hugo version
+```
+
+### Subsurface
+
+```bash
+sudo add-apt-repository ppa:subsurface/subsurface-daily
+sudo apt update && sudo apt install subsurface
 ```
