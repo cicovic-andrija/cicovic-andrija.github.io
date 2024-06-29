@@ -1,5 +1,5 @@
 ---
-title: "Future Writing"
+title: "Ideas For Future Writing"
 date: "2024-04-12T17:44:32Z"
 categories: ["other"]
 draft: true

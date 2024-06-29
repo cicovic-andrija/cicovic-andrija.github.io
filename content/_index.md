@@ -4,19 +4,19 @@ title: "Home"
 
 <img src="/images/cobalt-manta.png" style="max-width:15%;min-width:40px;float:right;" alt="Manta ray" />
 
-# cobalt
+# Andrija Cicović
 
-### ~
+### software · diving · literature · references · thoughts
 
-...is my personal, minimal website powered by [Hugo](https://gohugo.io/) and based on my
+This is my personal, minimal website powered by [Hugo](https://gohugo.io/) and based on my
 [fork](https://github.com/cicovic-andrija/hugo-xmin-fork) of [XMin](https://github.com/yihui/hugo-xmin).
-It's a learning journal about programming & software systems, SCUBA diving, literature ... and a collection of
-other arbitrary notes. If you happen to not be me and reading this, suggestions and bug reports are welcome
-[@my-e-mail-address](mailto:cicovic.andrija@gmail.com).
+
+If you happen to not be me and reading this, you can subscribe to this website's RSS feed with
+the link from the menu above. Suggestions and bug reports are welcome [@my-e-mail-address](mailto:cicovic.andrija@gmail.com).
 
 Let's dive in. ⚓
 
-### First, a quine
+## First, a quine
 
 A _quine_ is a computer program that produces a copy of its own source code as its output:
 
@@ -31,4 +31,4 @@ return 0;
 }
 ```
 
-### Then, everything else
+## Then, everything else

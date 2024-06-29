@@ -1,7 +1,8 @@
 ---
-title: "_Markdown Examples_"
+title: "Markdown Examples"
 date: "2023-01-01T00:00:00Z"
 categories: ["other"]
+tags: ["references"]
 draft: true
 ---
 
@@ -13,7 +14,7 @@ This is an _underlined_ text, and this is **bold** text.[^1]
 
 ## 1.1. Subtitle
 
-This is a reference to another page: [Future Writing]({{< ref "/notes/future-writing" >}} "Future Writing").
+This is a reference to another page: [Future Writing]({{< ref "/pages/future-writing" >}} "Future Writing").
 
 This is a reference to an external page: [GitHub](https://github.com).
 

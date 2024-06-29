@@ -2,7 +2,7 @@
 title: "AOWD Refresher: Navigation & Dry Suit Diving"
 date: "2023-04-03T18:47:05Z"
 categories: ["scuba-diving"]
-tags: ["navigation", "dry-suit"]
+tags: ["course-notes", "equipment"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Setup of a Pop!_OS System"
 date: "2024-05-03T17:10:16Z"
 categories: ["software"]
-tags: ["operating-systems", "linux"]
+tags: ["operating-systems", "homelab", "linux", "references"]
 draft: false
 ---
 

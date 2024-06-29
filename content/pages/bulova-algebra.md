@@ -1,8 +1,8 @@
 ---
-title: "Bulova algebra"
+title: "Beleške sa fakulteta: Bulova algebra"
 date: "2023-10-07T19:48:14Z"
 categories: ["software"]
-tags: ["math", "sr"]
+tags: ["math", "sr", "references"]
 draft: false
 ---
 
