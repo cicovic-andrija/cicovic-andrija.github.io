@@ -1,8 +1,8 @@
 ---
 title: "Dive Computer Reference: Smart Air"
 date: "2023-03-10T07:10:18Z"
-categories: ["scuba-diving", "references"]
-tags: ["equipment"]
+categories: ["scuba-diving"]
+tags: ["equipment", "references"]
 draft: false
 ---
 
