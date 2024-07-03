@@ -20,7 +20,7 @@ menu:
       weight: 4
 
 params:
-  footer: "[top](#) | (c) Andrija Cicović | 2023 -- 2024 | [E-mail](mailto:cicovic.andrija@gmail.com) | [GitHub](https://github.com/cicovic-andrija)"
+  footer: "[top↥](#) | Andrija Cicović (2023 -- 2024) | [E-mail](mailto:cicovic.andrija@gmail.com) | [GitHub](https://github.com/cicovic-andrija)"
 
 markup:
   highlight:

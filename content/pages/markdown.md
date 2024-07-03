@@ -31,3 +31,8 @@ This is a reference to an external page: [GitHub](https://github.com).
 | Row 1-A  | Row 1-B  |
 | Row 2-A  | Row 2-B  |
 | Row 3-A  | Row 3-B  |
+
+
+...and is an image:
+
+![manta-example-img](/images/cobalt-manta.png)
