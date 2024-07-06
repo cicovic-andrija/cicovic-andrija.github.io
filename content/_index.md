@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-<img src="/images/cobalt-manta.png" style="max-width:15%;min-width:40px;float:right;" alt="Manta ray" />
+<img src="/images/16511766.png" style="max-width:20%;min-width:40px;border-radius:100%;margin:20px;float:right;" alt="Me" />
 
 # Andrija Cicović
 
